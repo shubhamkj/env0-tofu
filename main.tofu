@@ -4,7 +4,7 @@ resource "aws_instance" "sample_instance" {
   security_groups = "sg-01234"
   subnet_id = "subnet-092345"
   // vpc_id = "vpc-92345"
-  iam_instance_profile = ssm_iam_role
+  // iam_instance_profile = ssm_iam_role
   tags {
   name = "ec2-instance1"
   }
