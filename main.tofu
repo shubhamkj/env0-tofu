@@ -6,6 +6,6 @@ resource "aws_ec2_instance" "sample_instance" {
   vpc_id = "vpc-92345"
   iam_role = ssm_iam_role
   tags {
-  "name" = "ec2-instance1"
+  name = "ec2-instance1"
   }
 }
