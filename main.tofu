@@ -1,4 +1,4 @@
-resource "aws_ec2_instance" "sample_instance" {
+resource "aws_instance" "sample_instance" {
   ami = "ami-190345"
   type = "t3a.medium"
   security_group = "sg-01234"
